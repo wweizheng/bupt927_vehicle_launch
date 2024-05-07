@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
-project(sample_vehicle_description)
+project(bupt927_vehicle_launch)
+# project(sample_vehicle_launch)
 
 if(NOT CMAKE_CXX_STANDARD)
   set(CMAKE_CXX_STANDARD 17)
@@ -15,7 +16,5 @@ find_package(ament_cmake_auto REQUIRED)
 ament_auto_find_build_dependencies()
 
 ament_auto_package(INSTALL_TO_SHARE
-  mesh
-  urdf
-  config
+  launch
 )
